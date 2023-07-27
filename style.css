@@ -9,6 +9,13 @@ body {
   font-family: "Montserrat", sans-serif;
   display: grid;
   place-content: center;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 34, 34, 1) 32%,
+    rgba(28, 28, 28, 1) 32%,
+    rgba(28, 28, 28, 1) 100%
+  );
+  color: white;
 }
 
 h1 {
@@ -19,4 +26,31 @@ h1 {
 p {
   font-size: 1.2rem;
   margin-bottom: 0.5em;
+  text-transform: uppercase;
 }
+
+span {
+  position: relative;
+}
+
+span:before {
+  position: absolute;
+  content: "";
+  height: 0.2em;
+  width: 80%;
+  bottom: 0.1em;
+  z-index: -1;
+  background: #71ae21;
+}
+
+/*
+
+- White Space
+- Color 
+- Contrast 
+- Scale
+- Alignment
+- Typography
+- Visual Hierarchy
+
+*/
