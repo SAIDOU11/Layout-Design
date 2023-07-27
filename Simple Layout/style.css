@@ -2,20 +2,24 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
 }
 
 body {
+  height: 100vh;
   font-family: "Montserrat", sans-serif;
   display: grid;
-  place-content: center;
-  background: linear-gradient(
-    0deg,
-    rgba(34, 34, 34, 1) 32%,
-    rgba(28, 28, 28, 1) 32%,
-    rgba(28, 28, 28, 1) 100%
-  );
+  align-items: center;
+  background: #000 url("moon_dark.jpg");
+  background-size: cover;
   color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  grid-gap: 7em;
+  height: 70vh;
+  margin-left: 6em;
 }
 
 h1 {
@@ -34,13 +38,13 @@ span {
 }
 
 span:before {
-  position: absolute;
   content: "";
+  position: absolute;
   height: 0.2em;
   width: 80%;
   bottom: 0.1em;
   z-index: -1;
-  background: #71ae21;
+  background: #e88a62;
 }
 
 /*
