@@ -2,51 +2,12 @@
   font-family: "Time";
   src: url("Time\ Normal.ttf");
 }
-
+/* font-family: "Nunito", sans-serif; */
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Nunito", sans-serif;
-  height: 100vh;
-  overflow: hidden;
-  background: linear-gradient(lightblue, rgb(107, 142, 200));
-}
-
-.container {
-  padding: 6em;
-}
-
-h1 {
-  color: rgb(214, 9, 9);
-  font-size: 4rem;
-}
-
-span {
-  font-size: 1.1rem;
-  background: lightgray;
-  color: black;
-  padding: 0.3em 0.8em;
-  border-radius: 0.5em;
-}
-
-span::before {
-  content: "1:30 PM";
-  position: absolute;
-  font-size: 6rem;
-  font-family: "Time";
-  background: white;
-  color: rgb(222, 220, 220);
-  z-index: -1;
-  left: 30%;
-  top: 14%;
-}
-
-p {
-  border-left: 10px solid gray;
-  padding: 2.5em;
-  font-weight: bold;
-  line-height: 1.5;
+  font-family: "Nunito";
 }
 
 /*
