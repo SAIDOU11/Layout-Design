@@ -1,13 +1,56 @@
 @font-face {
-  font-family: "Time";
-  src: url("Time\ Normal.ttf");
+  font-family: 'Time';
+  src: url('Time\ Normal.ttf');
 }
-/* font-family: "Nunito", sans-serif; */
+
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Nunito";
+  height: 100vh;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  display: grid;
+  place-content: center;
+  background: #bfd0e0;
+}
+
+.container {
+  padding: 2em;
+}
+
+h1 {
+  font-size: 5em;
+  color: rgb(231, 62, 62);
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 2.3em 0.8em;
+  border-left: 4px solid gray;
+}
+
+span {
+  position: relative;
+  font-size: 1.2rem;
+  color: white;
+  background: #585454;
+  border-radius: 0.5em;
+  padding: 0.3em 1em;
+}
+
+span:before {
+  position: absolute;
+  z-index: -1;
+  content: '1:30PM';
+  height: 0.8em;
+  left: -0.5em;
+  bottom: -0.6em;
+  font-size: 8rem;
+  color: #b1acac;
 }
 
 /*
